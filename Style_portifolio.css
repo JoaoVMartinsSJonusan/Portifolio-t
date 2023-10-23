@@ -1,0 +1,35 @@
+h2, h3{
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.288);
+}
+
+h2{
+    text-align: center;
+    font-size: 2.2em;
+}
+
+h3{
+    font-size: 1.6em;
+}
+
+section{
+    padding: 20px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}   
+
+img{
+    border-radius: 5px;
+    height: 200px;
+    transition: 0.2s;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.438);
+}
+
+img:hover{
+    height: 205px;
+}
