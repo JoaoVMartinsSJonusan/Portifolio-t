@@ -1,10 +1,14 @@
-*{
+/* 
+    Inicio do Style globais (Todas as paginas herdam)
+*/
+
+
+*{  /*Zerar margin e padding para ficar mais facil o trabalho com os containers*/
     margin: 0;
     padding: 0;    
-    
 }
 
-body{
+body{/*Configuração do background*/
     background-size: cover;
     background-position: initial;
     background-image: url(background.png);
@@ -20,6 +24,7 @@ main{
     border-radius: 5px;
 }
 
+/*inicio da configuração da navegação*/
 #texto_header{
     text-align: center;
     font-size: 3em;
@@ -52,7 +57,9 @@ header h1 {
     display: inline-block;
     border-radius: 8px;
 }
+/*Fim configuração da navegação*/
 
+/*Configuração do rodape*/
 footer {
     position: fixed;
     bottom: 0;

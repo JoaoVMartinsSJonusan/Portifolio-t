@@ -1,4 +1,4 @@
-
+/*Configuração das imagens*/
 img{
     height: 300px;
     float: left; /* Faz a imagem flutuar à esquerda */
@@ -10,7 +10,7 @@ img{
 img:hover{
     height: 305px;
 }
-
+/*inicio da Configuração especifica da imagem do hobbie*/
 #hobbie_img{
     height: 350px;
     float: right;
@@ -19,6 +19,8 @@ img:hover{
 #hobbie_img:hover{
     height: 355px;
 }
+/*Fim da configuração da imagem do hobbie*/
+
 main{
     width: 80%;
     margin: auto;
@@ -34,16 +36,16 @@ h2{
     padding: 10px 0px 10px 0px;
     text-shadow: 1px 1px #3333338a;
 }
-
+/*Hidden para que eu conseguisse fazer as configurações nescessarias com os outros elementos da pagina*/
 .container, .skills{
     overflow: hidden;
 }
 
+/*inicio configurações das skills*/
 .skills{
     text-align: center;
     display: flex;
     justify-content: space-around;
-    
 }
 
 .softSkill{
@@ -63,6 +65,8 @@ h2{
     color: rgb(230, 230, 230);
     box-shadow: 1px 1px 2px 1px#3333337a ;
 }
+/*Fim das configurações das skills*/
+
 .container p {
     padding-top: 100px;
     font-size: 1.3em;
